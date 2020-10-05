@@ -1,9 +1,8 @@
 #!/usr/bin/python
 
-#
-# This Program check if gmail adress exist
+# This Program check if gmail address exist
 # Author @BELARBI Samy https://github.com/0x539-Samy
-# informations about this exploit found in https://blog.0day.rocks/abusing-gmail-to-get-previously-unlisted-e-mail-addresses-41544b62b2
+# informations about this exploit found here https://www.4hou.com/posts/xG6B
 
 
 import argparse
@@ -30,4 +29,3 @@ if args.address:
         print "%s address not valid" % (args.address)
     else:
         print "%s address valid" % (args.address)
-
